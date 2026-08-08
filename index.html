@@ -51,6 +51,7 @@
 
     <ul class="nav-list">
       <li><a href="#work" class="nav-link" data-nav-link data-target="work">Work</a></li>
+      <li><a href="#projects" class="nav-link" data-nav-link data-target="projects">Projects</a></li>
       <li><a href="#experience" class="nav-link" data-nav-link data-target="experience">Experience</a></li>
       <li><a href="#about" class="nav-link" data-nav-link data-target="about">About</a></li>
       <li><a href="#contact" class="nav-link" data-nav-link data-target="contact">Contact</a></li>
@@ -60,6 +61,7 @@
   <div id="mobile-nav-panel" class="mobile-nav-panel" role="dialog" aria-label="Site navigation">
     <ul class="mobile-nav-list">
       <li><a href="#work" id="mobile-link-work" class="mobile-nav-link" data-nav-link data-target="work">Work</a></li>
+      <li><a href="#projects" id="mobile-link-projects" class="mobile-nav-link" data-nav-link data-target="projects">Projects</a></li>
       <li><a href="#experience" id="mobile-link-experience" class="mobile-nav-link" data-nav-link data-target="experience">Experience</a></li>
       <li><a href="#about" id="mobile-link-about" class="mobile-nav-link" data-nav-link data-target="about">About</a></li>
       <li><a href="#contact" id="mobile-link-contact" class="mobile-nav-link" data-nav-link data-target="contact">Contact</a></li>
@@ -72,12 +74,12 @@
   <section id="hero" tabindex="-1" class="hero">
     <div class="hero-inner">
       <h1 class="hero-name">Chris Longhurst</h1>
-      <p class="hero-lede">Product leader in enterprise marketing technology</p>
-      <p class="hero-intro">I build the marketing technology platforms that a six-state health system runs on. Fifteen years of turning ambiguous business needs into roadmaps, platforms, and tools that marketing teams actually use.</p>
-      <p class="hero-current">Currently Director of MarTech Product at Providence Health &amp; Services. I am looking for my next role as a senior individual contributor, closer to the product itself: Senior Product Manager, Principal Product Owner, or similar. Remote or Seattle area.</p>
+      <p class="hero-lede">Product leader — enterprise marketing technology &amp; data platforms</p>
+      <p class="hero-intro">15+ years turning ambiguous business goals into data-driven products — from Customer Data Platforms and attribution to the roadmaps and teams that ship them.</p>
       <div class="hero-ctas">
-        <a href="#work" class="btn-primary" data-nav-link data-target="work">View my work</a>
-        <a href="/Chris-Longhurst-Resume.pdf" target="_blank" rel="noopener" class="link-secondary" data-print-expand>Download resume (PDF, opens in new tab)</a>
+        <a href="/Chris-Longhurst-Resume.pdf" target="_blank" rel="noopener" class="btn-primary" data-print-expand>Download Resume (PDF, opens in new tab)</a>
+        <a href="https://www.linkedin.com/in/chris-longhurst-a1377258" target="_blank" rel="noopener" class="link-secondary">LinkedIn</a>
+        <a href="mailto:chrisjlonghurst@gmail.com" class="link-secondary">Email</a>
       </div>
     </div>
   </section>
@@ -104,14 +106,29 @@
           <p><strong>The outcome.</strong> Granular, campaign-level attribution across 150+ campaigns spanning five channels. The analytics team could finally answer campaign-level questions, and a category of manual work disappeared from the automation team's process.</p>
         </div>
       </article>
+    </div>
+
+    <div class="work-continue">
+      <a href="#projects" class="continue-link" data-nav-link data-target="projects">Continue to Independent Projects →</a>
+    </div>
+  </section>
+
+  <section id="projects" tabindex="-1">
+    <h2 class="section-title">Independent Projects</h2>
+    <p class="section-intro">I like shipping things on my own time too — partly to stay sharp on tools I don't always get to use at work, partly because I just enjoy building.</p>
+
+    <div class="work-list">
+      <article class="work-item">
+        <h3>Hypertrophy Training App</h3>
+        <div class="work-body">
+          <p>A full-stack web app I designed and built for personalized strength training — structured 12-week cycles, day-by-day muscle group focus, and longitudinal tracking of weights and reps across cycles. I use it for my own training and iterate on it constantly based on what actually helps versus what just looked good in the spec.</p>
+        </div>
+      </article>
 
       <article class="work-item">
-        <p class="eyebrow">Independent project, built on personal time</p>
-        <h3>Multi-agent AI automation system</h3>
+        <h3>AI Multi-Agent Automation System</h3>
         <div class="work-body">
-          <p><strong>The problem.</strong> A set of recurring research, monitoring, and reporting tasks in my own life were eating hours a week. Each one was individually small and individually tedious: check these sources, compare against what I already have, flag what is new, summarize it.</p>
-          <p><strong>The approach.</strong> I designed and deployed twelve scheduled AI agents, each scoped to a specific job, running against defined criteria on a set cadence. The system aggregates from ten-plus external sites and platforms, reconciles results against a structured tracking system with automated duplicate detection, and delivers digest reports on schedule.</p>
-          <p><strong>The outcome.</strong> The work runs without me. More importantly, building it taught me where agent-based automation is genuinely reliable and where it needs a human check, which is the question every product organization is currently trying to answer.</p>
+          <p>A system of 12 scheduled AI agents (built on Claude) that automate recurring research, monitoring, and reporting work — pulling from 10+ external sources, reconciling and de-duplicating results, and delivering digest reports on a schedule. Less clever prompt, more small team of tireless interns who never sleep.</p>
         </div>
       </article>
     </div>
@@ -206,29 +223,13 @@
     <h2 class="section-title">About</h2>
 
     <div class="about-inner">
-      <p>I am a product person who came up through analytics. That order matters. Before I owned a roadmap, I spent years being the person who had to answer whether a campaign worked, which meant living with the consequences of every measurement decision made upstream. It made me skeptical of platforms that look impressive in a demo and fall apart when someone asks a specific question.</p>
+      <p>I've spent 15+ years in healthcare marketing technology, most recently as Director of MarTech Product at Providence, where I own enterprise data and marketing platforms end to end: setting the vision, partnering with engineering and analytics, and turning messy business needs into products people actually use.</p>
 
-      <div class="about-block">
-        <h3>How I work</h3>
-        <div class="about-block-body">
-          <p>I start with the question underneath the request. Stakeholders usually arrive with a solution already picked, and most of the value in the first conversation is figuring out what problem that solution was chosen for. From there it is ordinary product craft: discovery, requirements specific enough to build from, honest tradeoffs between what the business wants now and what the platform can carry for five years.</p>
-          <p>I care a lot about adoption. A platform capability that nobody uses is a cost, not a win, so I spend real time teaching the teams we support: analytics, marketing managers, campaign automation, program managers. Several of the projects I am proudest of succeeded because of the training that came after launch, not the launch itself.</p>
-          <p>I also build things myself. Not because a director needs to, but because staying close to the making keeps me honest about what I am asking other people to do.</p>
-        </div>
-      </div>
+      <p>What I'm good at isn't glamorous — it's the unglamorous middle part of product work. Getting a CDP from "board-approved idea" to "marketing team relies on this daily." Standing up a team's first sprint cadence when there's no process to inherit and no time to wait for one. I like the parts of the job most people skip past on their way to the roadmap slide.</p>
 
-      <div class="about-block">
-        <h3>What I am working on now</h3>
-        <div class="about-block-body">
-          <p>I have been building and operating AI systems on my own time, entirely outside my work at Providence, and it has changed how I think about product work. I run twelve scheduled agents that handle research, monitoring, and reporting workflows I used to do by hand, including multi-source aggregation across ten-plus platforms and automated reconciliation against a structured tracking system. I also built a full-stack training application that I use several times a week, which is the fastest way I know to learn what it feels like to own something end to end.</p>
-          <p>This site is part of the same habit, designed and built with AI assistance.</p>
-        </div>
-      </div>
+      <p>Outside of Providence, I build things for the same reason I like this work: because I want to see if I can make something people actually use. That's shown up lately as a full-stack training app I built for my own workouts, and a small fleet of AI agents I run to automate research and reporting I used to do by hand.</p>
 
-      <div class="about-block">
-        <h3>Tools and platforms</h3>
-        <p>RedPoint (CDP and marketing automation), Eloqua, Invoca, Google Analytics 360, Tealium, Sitecore, LuxSci, Microsoft Copilot, Claude.</p>
-      </div>
+      <p>I'm a Certified Scrum Product Owner, I care about clear metrics and honest tradeoffs, and I build teams that ship. Currently exploring what's next — details below.</p>
     </div>
 
     <div class="about-continue">
@@ -239,11 +240,11 @@
   <section id="contact" tabindex="-1">
     <h2 class="section-title">Contact</h2>
     <div class="contact-inner">
-      <p class="contact-intro">I am always happy to hear from people working on marketing technology, healthcare product, or applied AI, whether that is a role, a question about a platform decision, or comparing notes on building with agents.</p>
-      <div class="contact-links">
-        <a href="mailto:chrisjlonghurst@gmail.com" class="contact-link" data-print-expand>Email: chrisjlonghurst@gmail.com</a>
-        <a href="https://www.linkedin.com/in/chris-longhurst-a1377258" class="contact-link" data-print-expand>LinkedIn: linkedin.com/in/chris-longhurst-a1377258</a>
-        <p class="contact-location">Based in Seattle, WA. Open to remote.</p>
+      <p class="contact-intro">Open to Senior Product Manager, Product Owner, and Program Manager roles — remote or Seattle-based.</p>
+      <div class="contact-links-row">
+        <a href="mailto:chrisjlonghurst@gmail.com" class="contact-link" data-print-expand>chrisjlonghurst@gmail.com</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="https://www.linkedin.com/in/chris-longhurst-a1377258" class="contact-link">LinkedIn</a>
       </div>
     </div>
   </section>

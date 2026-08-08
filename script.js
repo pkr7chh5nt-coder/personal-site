@@ -87,7 +87,7 @@
     });
   }
 
-  var sectionIds = ['hero', 'work', 'experience', 'about', 'contact'];
+  var sectionIds = ['hero', 'work', 'projects', 'experience', 'about', 'contact'];
   var allNavLinkGroups = document.querySelectorAll('[data-nav-link]');
 
   function setActiveSection(id) {

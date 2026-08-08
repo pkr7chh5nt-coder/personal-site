@@ -229,6 +229,16 @@ section:focus {
   margin: 0 0 8px;
 }
 
+/* negative top margin offsets .section-title's 48px bottom margin, which is sized for body content, not a lede paragraph */
+.section-intro {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  max-width: 720px;
+  margin: -24px 0 48px;
+  text-wrap: pretty;
+}
+
 /* Hero */
 .hero {
   padding: clamp(48px, 10vw, 96px) clamp(20px, 5vw, 40px) 0;
@@ -262,12 +272,8 @@ section:focus {
   text-wrap: pretty;
 }
 
-.hero-current {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1.6;
-  margin: 0 0 40px;
-  text-wrap: pretty;
+.hero-intro:last-of-type {
+  margin-bottom: 40px;
 }
 
 .hero-ctas {
@@ -478,26 +484,6 @@ section:focus {
   text-wrap: pretty;
 }
 
-.about-block h3 {
-  font-family: 'Source Serif 4', serif;
-  font-size: 20px;
-  font-weight: 600;
-  margin: 0 0 16px;
-}
-
-.about-block-body {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.about-block-body p {
-  font-size: 18px;
-  line-height: 1.6;
-  margin: 0;
-  text-wrap: pretty;
-}
-
 .about-continue {
   margin-top: 64px;
 }
@@ -514,10 +500,15 @@ section:focus {
   text-wrap: pretty;
 }
 
-.contact-links {
+.contact-links-row {
   display: flex;
-  flex-direction: column;
-  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-links-row .sep {
+  color: var(--text-secondary);
 }
 
 .contact-link {
@@ -536,12 +527,6 @@ section:focus {
 
 .contact-link:hover {
   text-decoration-color: var(--accent);
-}
-
-.contact-location {
-  font-size: 16px;
-  color: var(--text-secondary);
-  margin: 8px 0 0;
 }
 
 #contact {
