@@ -574,6 +574,22 @@ section:focus {
   margin-bottom: 0;
 }
 
+/* Below this width the middot-separated rows wrap mid-item and leave an
+   orphaned separator on its own line; stack instead. */
+@media (max-width: 600px) {
+  .contact-links-row,
+  .footer-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .contact-links-row .sep,
+  .footer-row .sep {
+    display: none;
+  }
+}
+
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   html {
